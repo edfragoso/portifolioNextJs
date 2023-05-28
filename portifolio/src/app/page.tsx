@@ -1,10 +1,10 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Header from "@/components/Header";
-import { Languages } from "@/components/Languages";
+import { Languages } from "../components/Languages";
 import { Repository } from "../api/Repository";
 import Link from "next/link";
-import iconGithub from '../../public/placa-do-github.png'
+import iconGithub from '../../public/icon/placa-do-github.png'
 
 export default function Home() {
   return (

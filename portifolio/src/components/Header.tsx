@@ -1,16 +1,16 @@
 import Image from "next/image";
 import styles from "./styles/header.module.css";
-import eu from "../../public/eu.png";
-import js from "../../public/javascript_original_logo_icon_146455.png";
-import ts from "../../public/typescript_original_logo_icon_146317.png";
-import html from "../../public/html_original_wordmark_logo_icon_146478.png";
-import css from "../../public/css_original_wordmark_logo_icon_146576.png";
-import nodejs from "../../public/nodejs_original_wordmark_logo_icon_146412 (1).png";
-import next from "../../public/nextjs_icon_213852.png";
-import prisma from "../../public/prisma_icon_132076.png";
-import react from "../../public/brand_react_icon_158742.png";
-import git from "../../public/git.png";
-import nestLogo from "../../public/nestjs_icon.png"
+import eu from "../../public/img/eu.png";
+import js from "../../public/icon/javascript_original_logo_icon_146455.png";
+import ts from "../../public/icon/typescript_original_logo_icon_146317.png";
+import html from "../../public/icon/html_original_wordmark_logo_icon_146478.png";
+import css from "../../public/icon/css_original_wordmark_logo_icon_146576.png";
+import nodejs from "../../public/icon/nodejs_original_wordmark_logo_icon_146412 (1).png";
+import next from "../../public/icon/nextjs_icon_213852.png";
+import prisma from "../../public/icon/prisma_icon_132076.png";
+import react from "../../public/icon/brand_react_icon_158742.png";
+import git from "../../public/icon/git.png";
+import nestLogo from "../../public/icon/nestjs_icon.png"
 
 export default function Header() {
   return (
