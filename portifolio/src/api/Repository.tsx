@@ -17,7 +17,7 @@ export function Repository() {
   const [totEJS, setTotEJS] = useState<number>(0);
   const [totCss, setTotCss] = useState<number>(0);
 
-  const accessToken = "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";
+  const accessToken = "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";
 
   useEffect(() => {
     fetch("https://api.github.com/users/edfragoso/repos", {
