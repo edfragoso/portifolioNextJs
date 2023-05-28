@@ -1,0 +1,58 @@
+.content {
+    width: 100%;
+    padding: 0.5rem;
+    display: inherit;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .content h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-family: "Castoro Titling", cursive;
+  }
+  
+  .content h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-family: "Castoro Titling", cursive;
+  }
+  
+  .content p {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    font-size: small;
+    font-style: italic;
+    font-family: "Castoro Titling", cursive;
+  }
+  
+  .content span {
+    font-size: larger;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+  }
+  
+  .progressWrapper {
+    width: 100%;
+    height: 5px;
+    background-color: lightgray;
+    border-radius: 4px;
+    position: relative;
+    border: 1px solid grey;
+  }
+  
+  .progressContainer {
+    height: 100%;
+    background-color: #f7e700;
+    border-radius: 4px;
+  }
+  
+  .dataContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  margin-top: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 0.5rem;
+  }
