@@ -1,0 +1,167 @@
+.content {
+    width: 100%;
+    /* min-height: 100vh; */
+    display: flex;
+    justify-content: space-between;
+    /*  background-color: rgba(179, 179, 179, 0.5); */
+    /* background-image: url("../../../public/code.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5rem;
+    font-family: "Castoro Titling", cursive;
+  
+    @media screen and (max-width: 668px) {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
+  
+  .left {
+    display: flex;
+    margin-right: 1em;
+    justify-content: space-between;
+    padding: 0.6rem;
+    width: 50%;
+    min-height: 20rem;
+    align-items: center;
+    opacity: 0.8;
+    /* animation: slideLeft 1.7s ease-out forwards; */
+    border-radius: 10px;
+  
+    @media screen and (max-width: 668px) {
+      flex-direction: column;
+      justify-content: center;
+      margin: 0 auto;
+      padding: auto;
+    }
+  }
+  
+  .left h2 {
+    color: beige;
+    text-align: center;
+    font-size: xx-large;
+  }
+  
+  .left p {
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: beige;
+    text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.9);
+  
+    @media screen and (max-width: 668px) {
+      width: 100%;
+      font-size: 20px;
+      padding: 0;
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+  
+  @keyframes slideLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 0.8;
+    }
+  }
+  
+  .img {
+    border: 3px solid beige;
+    border-radius: 20px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
+    margin-right: 1em;
+    width: 300px;
+    height: auto;
+    
+    @media screen and (max-width: 668px) {
+      max-width: 100px;
+      max-height: auto;
+    }
+  }
+  
+  .right {
+    margin: 10px;
+    padding: 0.6rem;
+    text-align: center;
+    width: 50%;
+    animation: slideRight 1.7s ease-out forwards;
+  
+    @media screen and (max-width: 668px) {
+      flex-direction: column;
+      justify-content: center;
+      margin: 0 auto;
+      padding: auto;
+      
+    }
+  }
+  
+  .right h2 {
+    
+    color: beige;
+    text-align: center;
+    font-size: xx-large;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
+  }
+  
+  .right p {
+    font-size: small;
+    margin-top: 20px;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
+  }
+  
+  .rightFigure {
+    display: grid;
+    justify-content: center;
+    padding: 1rem;
+    grid-template-columns: repeat(4, minmax(10%, auto));
+    width: 100%;
+    
+  
+    @media screen and (max-width: 668px) {
+      display: grid;
+      align-items: center;
+      justify-content: center;
+   
+      grid-template-columns: repeat(4, minmax(45%, auto));
+    }
+  }
+  
+  .rightFigureItem {
+    display: flex;
+    flex-direction: column;
+    width: 5em;
+    align-items: center;
+    justify-content: center;
+    margin: 3px;
+    
+  
+  
+    @media screen and (max-width: 668px) {
+      align-items: center;
+      margin: 10px;
+      padding: 0.5rem;
+    }
+  }
+  
+  .rightFigureItem p {
+    color: beige;
+    font-size: small;
+    margin-top: 5px;
+  }
+  
+  
+  @keyframes slideRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
