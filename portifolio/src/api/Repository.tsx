@@ -1,3 +1,4 @@
+// esse arquivo he temporario
 "use client";
 import { useEffect, useState } from "react";
 import Style from "./repository.module.css";
@@ -17,7 +18,7 @@ export function Repository() {
   const [totEJS, setTotEJS] = useState<number>(0);
   const [totCss, setTotCss] = useState<number>(0);
 
-  const accessToken = "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";
+  const accessToken = "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";
 
   useEffect(() => {
     fetch("https://api.github.com/users/edfragoso/repos", {
